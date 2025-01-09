@@ -1,0 +1,26 @@
+{
+    "messages": [
+      {
+        "id": 1,
+        "sender": "Alice",
+        "receiver": "William",
+        "message": "Hi William, how are you?",
+        "timestamp": "2025-01-09T10:00:00Z"
+      },
+      {
+        "id": 2,
+        "sender": "William",
+        "receiver": "Alice",
+        "message": "I'm good, thank you. How about you?",
+        "timestamp": "2025-01-09T10:05:00Z"
+      },
+      {
+        "id": 3,
+        "sender": "Bob",
+        "receiver": "William",
+        "message": "Don't forget our meeting at 3 PM.",
+        "timestamp": "2025-01-09T09:00:00Z"
+      }
+    ]
+  }
+  

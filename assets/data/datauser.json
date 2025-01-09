@@ -1,0 +1,25 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "William",
+        "email": "william@gmail.com",
+        "profilePicture": "assets/images/profile_pic.png",
+        "preferences": {
+          "videoPlayback": "High Quality",
+          "downloadOption": "WiFi Only"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Alice",
+        "email": "alice@gmail.com",
+        "profilePicture": "assets/images/default_pic.png",
+        "preferences": {
+          "videoPlayback": "Standard Quality",
+          "downloadOption": "WiFi and Mobile Data"
+        }
+      }
+    ]
+  }
+  
