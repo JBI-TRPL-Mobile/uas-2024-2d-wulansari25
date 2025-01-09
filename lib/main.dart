@@ -1,29 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import './state/message_state.dart';
-import './screens/message_screen.dart';
+import 'screens/message_screen.dart'; // Pastikan path ini sesuai dengan struktur folder Anda
 
 void main() {
-  runApp(
-    MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (context) => MessageState()),
-      ],
-      child: MyApp(),
-    ),
-  );
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Message App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MessageScreen(),
-    )
+      title: 'Flutter Demo',
+      home: MessageScreen(), // The MessageScreen widget will manage its own state now
+    );
   }
 }
